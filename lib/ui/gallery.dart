@@ -125,7 +125,7 @@ class _GalleryScreenState extends State<GalleryScreen> {
             children: [
               if (imagePath != null) Image.file(File(imagePath!)),
               if (image == null)
-                const Text("Scatta una foto o sceglila dalla galleria"),
+                const Text("Nessuna foto selezionata"),
               Column(
                 children: [
                   // Show classification result
