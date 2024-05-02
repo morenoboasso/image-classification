@@ -17,7 +17,6 @@
 import 'dart:io';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_translate/flutter_translate.dart';
 import 'package:image_classification_mobilenet/helper/image_classification_helper.dart';
 
 class CameraScreen extends StatefulWidget {
