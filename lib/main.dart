@@ -106,6 +106,7 @@ class _BottomNavigationBarExampleState
     });
   }
 
+  //BottomBar
   @override
   Widget build(BuildContext context) {
     return Scaffold(

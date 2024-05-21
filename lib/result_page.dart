@@ -7,18 +7,10 @@ class ResultPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Color appBarColor = Colors.white;
-
-    if (resultName.toLowerCase().contains('water bottle')) {
-      appBarColor = Colors.blue;
-    } else if (resultName.toLowerCase().contains('notebook')) {
-      appBarColor = Colors.grey;
-    }
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Dettagli Risultato'),
-        backgroundColor: appBarColor,
       ),
       body: Center(
         child: Text(
